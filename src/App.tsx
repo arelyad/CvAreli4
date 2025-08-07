@@ -698,11 +698,11 @@ const App = () => {
               <div className="flex flex-wrap gap-2">
                 {Object.entries(portfolioData.skills.tooltips).map(([label, tooltip], idx) => (
                   <div key={idx} className="relative group">
-                    <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm cursor help border border-gray-300 group-hover:shadow-md transition">
+                    <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm cursor-help border border-gray-300 group-hover:shadow-md transition">
                       {label}
-                      <Info size={12} className="inline-block ml-1 text-gray-500 opacity-0 group hover:opacity-100 transition-opacity" />
+                      <Info size={12} className="inline-block ml-1 text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity" />
                     </span>
-                    <div className="absolute z-10 hidden group-hover:block bg-[#a8c0d9] text-gray-900 font-medium text-sm p-3 shadow-xl rounded-md w-64 top-full mt-1 left-1/2 -translate-x-1/2">
+                    <div className="absolute z-10 hidden group-hover:block bg-[#a8c0d9] text-gray-900 font-medium text-xs p-3 shadow-xl rounded-md w-64 top-full mt-1 left-1/2 -translate-x-1/2">
                       {tooltip}
                     </div>
                   </div>
