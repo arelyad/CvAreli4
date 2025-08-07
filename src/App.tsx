@@ -30,7 +30,7 @@ const portfolioData = {
     tooltips: {
       'MS Office': 'Word, Excel, Outlook, Power Point - Nivel Avanzado',
       'Motores de búsqueda': 'Búsqueda avanzada y análisis de información',
-      'Correo electrónico': 'Gestión Profesional de comunicaciones',
+      'Correo electrónico': 'Habilidad clave para alinear relaciones, procesos y objetivos',
       'Soluciones inteligentes': 'Implementación de Inteligencia Artificial para optimización de procesos',
       'Tecnologías emergentes': 'Adaptación e integración de nuevas tecnologías en procesos de negocio',
       'Gestión empresarial': 'Visión integral del negocio para la optimización de recursos',
