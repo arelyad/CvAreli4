@@ -313,7 +313,7 @@ const Navigation = ({ activeSection, onNavigate, isMobileMenuOpen, toggleMobileM
     { id: 'habilidades', title: 'Habilidades Destacadas', icon: <Gem size={20} /> },
     { id: 'experiencia', title: 'Experiencia Profesional', icon: <Briefcase size={20} /> },
     { id: 'proyectos', title: 'Proyectos de Innovación y Transformación Digital', icon: <Lightbulb
-      size={20} /> },
+      size={18} /> },
     { id: 'educacion', title: 'Educación Académica', icon: <GraduationCap size={20} /> },
     { id: 'idiomas', title: 'Idiomas', icon: <Globe size={20} /> },
     { id: 'contacto', title: 'Contacto', icon: <Handshake size={20} /> },
